@@ -13,7 +13,7 @@ namespace ThreadConsoleApp
         {
             Console.WriteLine("A new child thread will start right now...");
 
-            int sleeping = 1000; // the thread will pause for 1 second
+            int sleeping = 3000; // the thread will pause for 3 seconds
             Console.WriteLine("Child Thread will pause for {0} seconds", sleeping / 1000);
             Thread.Sleep(sleeping);
             Console.WriteLine("Now the thread is back from sleeping.");
