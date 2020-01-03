@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ThreadConsoleApp
 {
-    class Program
+    class Program3
     {   
         public static void CallNewThread()
         {
